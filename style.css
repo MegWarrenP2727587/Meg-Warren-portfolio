@@ -1,0 +1,104 @@
+h1{ text-align: center; font-size: 30px}
+
+
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: hwb(241 1% 4%);
+  }
+  /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/ 
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em; /*this is to make the text in the header readable making the colour white*/
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #0a58e8;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  /*This is the navigation bar colour set*/ 
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+      }
+/* https://www.w3schools.com/tags/tag_center.asp*/
+
+ .photography { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+ }
+/*This code made it so all the images I put in the photography class were centered and also the same size keeping the continuity throught the page.*/
+
+ .social-media {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 250px; 
+}
+
+.square{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 175px;
+}
+/*This is the code that I used to make the images on the independent page the same size, they were all a different size than the first page so they needed a different class so they wouldnt be streched out.*/
+
+ .des{ 
+    font-size: 2vh;
+ }
+
+
+
+
+h2{ text-align: center; font-size: 2vh;}
+h3{ text-align: center; font-size: 2vh;} 
+p{ font-size: 2vh;}
+ul{ font-size: 2vh;}
+header{text-align: center; font-size: 2vh;}
+/*https://www.w3schools.com/tags/tag_center.asp*/
+
+
+.centre {
+    display: block;
+    margin: 0 auto;
+}
+/*This was used to center the audio anf video files*/ 
